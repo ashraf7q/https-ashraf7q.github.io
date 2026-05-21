@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web & Databases - Ashraf Hassan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=JetBrains+Mono:wght@400;500&family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="theme-toggle-wrapper">
+        <button id="themeToggle" class="theme-toggle">🌙</button>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div>
+                    <h1>Ashraf Hassan</h1>
+                    <p class="tagline">// web dev · databases · APIs</p>
+                </div>
+                <nav>
+                    <a href="index.html">~/home</a>
+                    <a href="algorithms-cpp.html">~/algorithms</a>
+                    <a href="web-databases.html" class="active">~/web&db</a>
+                    <a href="research-group.html">~/research</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="page-intro">
+            <h2>Full-Stack & Data Management</h2>
+            <p>Web applications, database design, and API integration projects.</p>
+        </section>
+
+        <!-- TALABAT SECTION -->
+        <section class="project">
+            <h2>📌 Talabat Egypt Clone Web Application</h2>
+            <div class="project-content">
+                <div class="project-description">
+                    <p>Built a responsive food ordering web app using HTML, CSS, and JavaScript featuring authentication, cart management, search/filter functionality, localStorage persistence, and dynamic UI interactions.</p>
+                    <ul>
+                        <li>User authentication (login/signup)</li>
+                        <li>Add to cart with quantity management</li>
+                        <li>Search and filter by restaurant/cuisine</li>
+                        <li>Persistent cart using localStorage</li>
+                    </ul>
+                    <p><strong>Tech:</strong> HTML, CSS, JavaScript, localStorage</p>
+                    <a href="#" class="demo-link">🌐 Live Demo (coming soon)</a>
+                    <a href="https://github.com/ashraf7q" target="_blank" class="demo-link">🔗 GitHub Repo</a>
+                </div>
+                <div class="project-screenshot">
+                    <div class="placeholder-img">
+                        <img src="images/Screenshot (228).png" alt="Talabat clone screenshot" style="max-width:100%; border-radius:12px;" onerror="this.style.display='none'; this.parentElement.innerHTML='[Screenshot: Talabat clone homepage with food items]'">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MYSQL SECTION - CORRECTED -->
+        <section class="project">
+            <h2>📌 MySQL Database Design Project</h2>
+            <div class="project-content">
+                <div class="project-description">
+                    <p>Designed and implemented a complete MySQL database for a bookstore management system including ER diagrams, normalized tables, complex queries, and stored procedures.</p>
+                    <ul>
+                        <li>10+ normalized tables with proper relationships</li>
+                        <li>Complex JOIN queries and aggregate functions</li>
+                        <li>Stored procedures for automated reporting</li>
+                        <li>User permission management</li>
+                    </ul>
+                    <p><strong>Tech:</strong> MySQL, ER Diagrams, SQL Queries</p>
+                    <a href="https://github.com/ashraf7q" target="_blank" class="demo-link">🔗 GitHub Repo</a>
+                </div>
+                <div class="project-screenshot">
+                    <div class="placeholder-img">
+                        <img src="images/unnamed sql pic.png" alt="MySQL database screenshot" style="max-width:100%; border-radius:12px;" onerror="this.style.display='none'; this.parentElement.innerHTML='[Screenshot: MySQL schema diagram or query output]'">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- API SECTION -->
+        <section class="project">
+            <h2>📌 API Integration Project</h2>
+            <div class="project-content">
+                <div class="project-description">
+                    <p>Built a weather dashboard using a public REST API (OpenWeatherMap) to fetch and display real-time weather data for any city. Implemented async/await, error handling, and dynamic UI updates.</p>
+                    <ul>
+                        <li>Fetch API with async JavaScript</li>
+                        <li>JSON data parsing and display</li>
+                        <li>Search by city name with error handling</li>
+                        <li>Responsive card-based design</li>
+                    </ul>
+                    <p><strong>Tech:</strong> JavaScript, REST API, Fetch, Async/Await</p>
+                    <a href="#" class="demo-link">🌐 Live Demo (coming soon)</a>
+                    <a href="https://github.com/ashraf7q" target="_blank" class="demo-link">🔗 GitHub Repo</a>
+                </div>
+                <div class="project-screenshot">
+                    <div class="placeholder-img">[API screenshot coming soon]</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section">
+            <h2>💡 Skills Demonstrated</h2>
+            <ul class="skills-list">
+                <li>Frontend development (HTML/CSS/JS)</li>
+                <li>Database design & SQL optimization</li>
+                <li>API consumption & asynchronous programming</li>
+                <li>LocalStorage & state management</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="footer-motto">// build with purpose, ship with pride</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
